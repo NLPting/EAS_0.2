@@ -1,0 +1,72 @@
+
+
+#search{
+    overflow: auto;
+}
+
+textarea:focus, textarea.form-control:focus, button.btn:focus, input:focus, input.form-control:focus, .form-control:focus, [contenteditable].form-control:focus {
+  box-shadow: none; !important
+}
+
+input[type="checkbox"] {
+    appearance: none; 
+    -webkit-appearance: none;
+    outline: none;
+    display:none
+}
+ 
+
+
+
+#rightDiv {
+    position: fixed;
+    top: 56px;
+    right: 0px;
+    overflow: auto;
+    overflow-x: hidden;
+    background: #c4d3f6;
+    color: black;
+    height: 95%;
+    padding: 5px 40px;
+}
+
+#scoreborder{
+    border-right: 2px double black;
+    border-right-style: dashed;
+}
+
+
+
+label {
+    background-color: white;
+    border: 1px solid rgba(0,0,0,.125);
+    padding: 3px 15px;
+    cursor: pointer;
+}
+
+#first-word {
+    top: 7px;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 60px;
+}
+
+.card1-title {
+    padding: -0.25rem 1.25rem;
+    margin-bottom: 0;
+    background-color: rgba(0,0,0,.03);
+    border-bottom: 1px solid rgba(0,0,0,.125);
+}
+
+#mark {
+    font-size: 18px;
+    margin-bottom: .5rem;
+    font-family: inherit;
+    font-weight: 50;
+    line-height: 1.2;
+    color: inherit;
+}
+
+
+
+

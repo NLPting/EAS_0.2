@@ -1,0 +1,157 @@
+/* remove bootstrap default blue outline */
+.linggle.btn:focus {
+    outline: none !important;
+ }
+ 
+ /* main btn */
+ .linggle.btn-main {
+   background-color: #cc0000;
+   border-color: #cc0000;
+ }
+ .linggle.btn-main:hover,
+ .linggle.btn-main:focus,
+ .linggle.btn-main:active,
+ .linggle.btn-main.active {
+   background-color: #b30000;
+   border-color: #990000;
+ }
+ .linggle.btn-main.disabled:hover,
+ .linggle.btn-main.disabled:focus,
+ .linggle.btn-main.disabled:active,
+ .linggle.btn-main.disabled.active,
+ .linggle.btn-main[disabled]:hover,
+ .linggle.btn-main[disabled]:focus,
+ .linggle.btn-main[disabled]:active,
+ .linggle.btn-main[disabled].active,
+ fieldset[disabled] .linggle.btn-main:hover,
+ fieldset[disabled] .linggle.btn-main:focus,
+ fieldset[disabled] .linggle.btn-main:active,
+ fieldset[disabled] .linggle.btn-main.active {
+   background-color: #cc0000;
+   border-color: #cc0000;
+ }
+ .linggle.btn-main i {
+   color: white;
+ }
+ 
+ /* white btn */
+ .linggle.btn-white {
+   background-color: #ffffff;
+   border-color: #cbcbcb;
+ }
+ .linggle.btn-white:hover,
+ .linggle.btn-white:focus,
+ .linggle.btn-white:active,
+ .linggle.btn-white.active {
+   background-color: #f2f2f2;
+   border-color: #cbcbcb;
+ }
+ .linggle.btn-white.disabled:hover,
+ .linggle.btn-white.disabled:focus,
+ .linggle.btn-white.disabled:active,
+ .linggle.btn-white.disabled.active,
+ .linggle.btn-white[disabled]:hover,
+ .linggle.btn-white[disabled]:focus,
+ .linggle.btn-white[disabled]:active,
+ .linggle.btn-white[disabled].active,
+ fieldset[disabled] .linggle.btn-white:hover,
+ fieldset[disabled] .linggle.btn-white:focus,
+ fieldset[disabled] .linggle.btn-white:active,
+ fieldset[disabled] .linggle.btn-white.active {
+   background-color: #ffffff;
+   border-color: #cbcbcb;
+ }
+ 
+ /* green btn */
+ .linggle.btn-green {
+   background-color: #25A172;
+   border-color: #25A172;
+   color: white;
+ }
+ .linggle.btn-green:hover,
+ .linggle.btn-green:focus,
+ .linggle.btn-green:active,
+ .linggle.btn-green.active {
+   background-color: #208c63;
+   border-color: #1b7855;
+   color: white;
+ }
+ .linggle.btn-green.disabled:hover,
+ .linggle.btn-green.disabled:focus,
+ .linggle.btn-green.disabled:active,
+ .linggle.btn-green.disabled.active,
+ .linggle.btn-green[disabled]:hover,
+ .linggle.btn-green[disabled]:focus,
+ .linggle.btn-green[disabled]:active,
+ .linggle.btn-green[disabled].active,
+ fieldset[disabled] .linggle.btn-green:hover,
+ fieldset[disabled] .linggle.btn-green:focus,
+ fieldset[disabled] .linggle.btn-green:active,
+ fieldset[disabled] .linggle.btn-green.active {
+   background-color: #25A172;
+   border-color: #25A172;
+   color: white;
+ }
+
+
+  
+
+  /* align center visually vertically with ngram column */
+.linggle.search-result table tbody tr td.percent,
+.linggle.search-result table tbody tr td.count,
+.linggle.search-result table tbody tr td.example {
+  vertical-align: middle;
+}
+  
+  .linggle.search-result .progress {
+    height: 5px;
+    background: #ededed;
+    box-shadow: none;
+  }
+  
+  .linggle.search-result .progress-bar {
+    background: #cc0000;
+    box-shadow: none;
+  }
+  
+  .linggle.search-result .examples span.highlight {
+    color: #cc0000;
+  }
+  
+  .linggle.navbar {
+    border: 10px;
+    border-bottom: 1px solid #cbcbcb;
+    border-radius: 0;
+    background: white;
+    box-shadow: 0 1px 3px rgba(203,203,203,0.1), 0 1px 3px rgba(203,203,203,0.2);
+    padding: 5px;
+    margin-bottom: 0;
+  }
+  
+  
+  
+  .linggle.navbar .navbar-form input {
+    width: 500px;
+    background: rgba(203,203,203,0.2);
+  }
+  
+  .linggle.navbar .navbar-form input[type="text"] {
+    font-size: 1.1em;
+  }
+  
+  .linggle.navbar .navbar-form input:focus, input[type]:focus, .uneditable-input:focus {
+      background: white;
+      border-color: #cc0000;
+      box-shadow: none;
+      outline: 0 none;
+  }
+
+
+
+.fa-search{
+    color: white;
+}
+  
+
+  
+ 
