@@ -1,4 +1,15 @@
 
+:root {
+    --a1-color: #ff8000;
+    --a2-color: #00a0a0;
+    --b1-color: #ff0000;
+    --b2-color: #008040;
+    --c1-color: #3060ff;
+    --c2-color: #a030a0;
+    --adj-color: #c2c7ff25;
+    --adv-color: #dfbbf925;
+}
+
 
 #search{
     overflow: auto;
@@ -28,11 +39,6 @@ input[type="checkbox"] {
     color: black;
     height: 95%;
     padding: 5px 40px;
-}
-
-#scoreborder{
-    border-right: 2px double black;
-    border-right-style: dashed;
 }
 
 
@@ -67,6 +73,86 @@ label {
     color: inherit;
 }
 
+.badge {
+    font-family: 'Courier New', Courier;
+    color: white;
+}
+
+.help-tip{
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    font-size: 14px;
+    line-height: 26px;
+    cursor: default;
+}
 
 
+.A1 {
+    background-color: var(--a1-color);
+    border-color: var(--a1-color);
+}
 
+.A2 {
+    background-color: var(--a2-color);
+    border-color: var(--a2-color);
+}
+
+.B1 {
+    background-color: var(--b1-color);
+    border-color: var(--b1-color);
+}
+
+.B2 {
+    background-color: var(--b2-color);
+    border-color: var(--b2-color);
+}
+
+.C1 {
+    background-color: var(--c1-color);
+    border-color: var(--c1-color);
+}
+
+.C2 {
+    background-color: var(--c2-color);
+    border-color: var(--c2-color);
+}
+
+
+.B-II {
+    border-style: solid;
+    border-width: 2px;
+    margin: 4px;
+    padding: 2px;
+    background-color: #ffc107;
+}
+
+.B-D {
+    padding: 2px;
+    background-color: rgb(255, 104, 104);
+}
+
+.B-R {
+    padding: 2px;
+    background-color: greenyellow;
+}
+
+.p-sen {
+    padding-left: 10px;
+    margin-top: 3px;
+    margin-bottom: 0.05rem;
+}
+
+.sen-notok {
+    background: repeating-linear-gradient( to right, #FFFACD, #FFFACD 10px, #FFFACD 10px, #FFFACD 20px );
+}
+
+.sen-bad {
+    background: repeating-linear-gradient( to right, #FFE4B5, #FFE4B5 10px, #FFE4B5 10px, #FFE4B5 20px );
+}
+
+
+#suggest-info {
+    top: -10px;
+    position: relative;
+}
